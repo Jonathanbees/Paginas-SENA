@@ -1,0 +1,114 @@
+.nav{
+    width: 0%;
+    height: 2%;
+    position:fixed;
+    transition: .4s all;
+    z-index: 1;
+}
+.nav ul{
+    padding: 0px;
+    text-align: center;
+}
+.nav li{
+    transition: .3s all;
+}
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+}
+.nav li h2{
+    text-align: center;
+    color: white;
+    padding: 0px;
+    padding-bottom: 7px;
+
+    font-size: 0px;
+}
+.nav img{
+    padding-top: 0.5%;
+    padding-left: 0px;
+}
+
+.nav:hover{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(5, 33, 51, 0.98);
+}
+
+.nav:hover{
+    padding: 15px;
+    font-size: 35px;
+}
+.nav:hover a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+.nav:hover img{
+    height: 0px;
+}
+.nav:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
+.nav:hover ul:right{
+    border-bottom: 1px black;
+}
+.nav:hover a:hover{
+    font-size: 25px;
+    padding:30px 0px;
+    background-color: rgba(22, 78, 112, 0.98);
+}
+
+.nav ul li{
+    list-style: none;
+}
+.nav{
+    list-style: none;
+}
+.nav li ul li ul{
+    display: none;
+}
+.nav li:hover>ul{
+    display:block;
+}
+.nav{
+    text-align: center;
+}
+.nav li ul li ul{
+   position: relative;
+   left: 230px;
+   display: none;
+   bottom: 100px;
+}
+.nav li ul li ul li{
+    position: absolute;
+
+}
+.nav li ul li ul li a li a{
+    position: absolute;
+
+}
+
+/*Footer
+
+.footer{
+    width: 100%;
+    padding: 50px;
+    background-image: url(../img/waves.png);
+
+}
+.box_footer{
+    float: left;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin: auto;
+ max-width: 1200px;
+ margin-top: 100px;
+}
+*/

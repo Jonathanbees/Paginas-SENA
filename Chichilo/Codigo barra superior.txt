@@ -1,0 +1,273 @@
+<!--Codigo HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Inicio configuracion responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fin configuración responsive-->
+    <title>Cantina Chichilo</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+
+<body style="background-color: rgb(169, 201, 248);">
+    <!--Inserción de logo y mensaje de bienvenida-->
+    <div style="background-color: black; color: white; margin-top: 0%;">
+
+        <h4 style="padding-top: 1%; padding-bottom: 1%; width: 100%; font-size: x-large; text-align: center; margin: 0%;">Bienvenidos a Chichilo</h4>
+    </div>
+    <!--Fin de inserción logo y bienvenida-->
+    <!--Conocimiento de espacio del menú y botones-->
+    <header style="background: burlywood; position: absolute; width: 100%; margin: auto; padding-right: 10px;">
+    <div id="header">
+        <ul class="nav">
+            <li><a href="#">Menu</a>
+
+                
+                <ul>
+                    <li><a href="#">Almuerzos</a>
+                        <ul> 
+                            <li><a href="#">Rabas a la calabria</a></li>
+                            <li><a href="#">Gambas al ajillo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Postres</a>
+                        <ul>
+                            <li><a href="#">Helado de vainilla</a></li>
+                            <li><a href="#">Tiramisu Calabres</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Especiales</a>
+                        <ul>
+                            <li><a href="">Caracoles a la bordaleza</a></li>
+                            <li><a href="">Filet al ajillo</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </li>
+            <li>
+                <a href="">Reservas</a>
+                
+            </li>
+            <li>
+                <a href="">Quienes somos</a>
+                
+            </li>
+        </ul>
+        <div class="buscar">
+            <input type="text" name="Buscar" placeholder="Buscar" style="width: 60%;">
+            <input type="submit" name="Acceder" value="Acceder">
+        </div>
+    </div>
+    </header>
+    <!--fin de espacio del menú y botones-->
+    <br><br><br>
+    <hr color="black">
+    <h2 class="platosfav">Nuestros mejores platos</h2>
+    <div class="platos">
+            <div class="m_platos">
+                <img src="./assets/img/chichilo_camaron.jpg" class="img_comida" alt="" 
+                style="border-radius: 15%;">
+              
+                 <p class="nombre"> Almuerzo de camarón</p>
+
+            </div>
+            <div class="m_platos">
+
+                <img src="./assets/img/chichilo_pastas.jpg" class="img_comida" alt="" 
+                style="border-radius: 15%;" >
+                <p  class="nombre">Gambas al ajillo</p>
+
+            </div>
+            <div class="m_platos">
+                <img src="./assets/img/chichilo_filete.jpg" class="img_comida" alt="" 
+                style="border-radius: 15%;">
+                <p  class="nombre">Filete al ajillo</p> 
+            </div>
+
+    </div>
+    <br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <hr color="black">
+    <div class="reservas">
+        <h1 style="text-align: center; margin-right: 5%; margin-top: 2%; margin-left: 5%;">Contáctanos!</h1>
+        <img src="assets/img/Logo.jpg" alt="Logo chichilo" class="img_form">
+        <div class="formulario">
+
+            <form action="formulario1.php" method="post">
+                <label for="text" style="text-align: initial; font-size: x-large">Nombre</label>
+                <br>
+                <input type="text" style="font-size: x-large; " required>
+                <br><br>
+                <label style="text-align: initial; font-size: x-large" for="number">Numero de contacto</label>
+                <br>
+                <input type="number" style="font-size: x-large;" required>
+                <br><br>
+                <label style="text-align: initial; font-size: x-large" for="email">Correo electrónico</label>
+                <br>
+                <input type="email" required style="font-size: x-large;">
+                <br><br>
+                <label style="text-align: initial; font-size: x-large" for="datetime">Fecha de reserva</label>
+                <br>
+                <input type="date" style="font-size: x-large;" required>
+                <br><br>
+                <label style="font-size: x-large; text-align: initial;" for="mensaje">Mensaje</label>
+                <br>
+                <textarea for="mensaje" cols="40" rows="4"></textarea>
+                <br><br>
+                <input type="submit" value="Reservar">
+                <input type="reset" value="Cancelar">
+                <br><br>
+                <br><br>
+            </form>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+<!-------------------------------------------Codigo CSS-->
+
+#header{
+    margin: auto;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    height: 10%;
+    font-size: 29px;
+}
+ul{
+    list-style: none;
+    margin: auto;
+
+}
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav>li{
+    float: left;
+
+}
+.nav li a{
+    background-color: burlywood;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+
+}
+.nav li a:hover{
+    background-color: turquoise;
+}
+.nav li:hover>ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    left: 55%;
+    top: 5%;
+}
+.buscar{
+    float: right;
+    font-size: x-large; 
+    width: 20%; 
+    height: 10%;
+}
+
+.platosfav{
+    text-align: center; 
+    font-size:xx-large; 
+    font-family: 'Courier New', Courier, monospace; 
+    color: rgba(2, 44, 212, 0.61);
+}
+
+
+.platos{
+    background-color:rgb(131, 153, 179);
+    padding-bottom: 1%; 
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+
+    margin-right: 1%;
+    border-radius: 1%;
+    width: 98%; 
+    float: left;
+
+}
+.m_platos{
+    height:10%;
+    width: 25%;   
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 5%;
+    
+}
+.img_comida{
+width: 100%;
+height: 15%;
+margin-right: 5%;
+margin-left: 5%;
+}
+.nombres{
+    background-color: rgb(131, 153, 179);
+    padding-bottom: 1%; padding-left: 1%;
+    padding-top: 0%;
+    padding-bottom: 0.2%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+.formulario{
+    float: right;
+    margin:auto;
+    margin-top: 1%; 
+    margin-left: 5%;
+    padding-right: 10%;
+    width: 30%;
+    height: 20%;
+    border-radius: 10%;
+}
+.img_form{
+    width:22%;
+    height:20%;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+.nombre{
+    font-size: xx-large;
+    margin-left: 9%;
+    text-align: center;
+    margin-top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    font-size: 22px;
+}
