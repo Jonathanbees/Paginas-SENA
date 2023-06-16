@@ -1,0 +1,16 @@
+.container h3{
+    text-align: center;
+}
+.container p{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container p img{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 20%;
+
+}

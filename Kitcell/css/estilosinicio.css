@@ -1,0 +1,142 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    text-decoration: none;
+}
+p{
+    margin-bottom: 1.6em;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+  /* Global */
+.container{
+    width:100%;
+    max-width: 1400px;
+    margin:0 auto;
+    overflow:hidden;
+    cursor: default;
+    text-decoration: none;
+}
+.container h2{
+    font-size: 2rem;
+    line-height: 1.3rem;
+    text-align: center;
+    text-shadow: 2px 2px #453264;
+    margin-bottom: 2rem;
+}
+  
+ul{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+  
+  
+  /* Header **/
+.header{
+    background:black;
+    color:#ffffff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    cursor:default;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.header a{
+    background: black;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:16px;
+}
+.logo {
+    letter-spacing: 7px;
+    padding-right: 2rem;
+    font-size: 3rem;
+    text-decoration: none;
+    
+}
+.logo:hover{
+    text-decoration: none;
+}
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li{
+        display: inline-block;
+    }
+        .navigation ul li a{
+            display:block;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s linear;
+            border-radius: 7px;
+            text-decoration: none;
+        }
+            .navigation ul li a:hover {
+                background: #3d3d3d;
+                text-decoration: none;
+            }
+.main{
+    padding-top: 4rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.footer{
+    background: black;
+    padding-top: 2rem;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+  @media screen and (max-width:797px) {
+    .menu-icon{
+        display: block;
+        cursor:pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul{
+        display: none;
+    }
+        .navigation ul.show{
+          display:block;
+        }
+        .navigation ul li{
+            display: block;
+        }
+            .navigation ul li a{
+                display:block;
+                padding: 0.5rem 0;
+                transition: all 0.3s linear;
+                border-radius: 7px;
+            }
+                .navigation ul li a:hover {
+                    background: #3d3d3d;
+                }
+}

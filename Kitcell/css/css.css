@@ -1,0 +1,111 @@
+/*--------------------------------------------- estilo tabal*/
+.tab{
+  width: 770px;
+  padding: 5px;
+ }
+
+.tabl{
+  width: 1100px;
+  padding: 5px;
+ }
+
+table{
+  border: 1px solid #000;
+  width: 650px;
+  padding: 5px;
+ }
+
+.primera_fila{
+  font-size:1.7em;
+  text-decoration:none;
+  background-color:#008080;
+}
+
+td{
+	
+  text-align:center;
+  border:1px #000000 groove; 
+	color: black;
+	/*linea de la tabla*/
+}
+.tab{
+	
+  text-align:center;
+  border:1px #5F94A0 groove; 
+	color: black;
+	 width: 10px;
+	/*linea de la tabla*/
+}
+
+.sin{
+  border:0;
+  padding:0 5px;
+}
+
+.bot{
+  padding:0 5px;
+  border:0;
+}
+
+.subtitulo{
+  font-size:15px;
+}
+
+.inp{
+  background: #A1130A;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 7px;
+  color: white;
+  border:0;
+}
+
+.inp:hover{
+  background: #CD6155;
+}
+
+.inp1{
+  background: #147B0D ; /*#48C9B0*/
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 7px;
+  color: white;
+  border:0;
+}
+
+.inp1:hover{
+
+  background: #45B39D;
+}
+
+.inp2{
+  background: #AC1CA1  ;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 9px;     /*inpur insertar*/
+  color: white;
+  border:0;
+}
+
+.inp2:hover{
+
+  background: #5499C7;
+}
+
+.but{
+  text-align: center;
+  width: 90%;
+
+}
+
+footer{
+  padding:1px;
+  margin-top:0px;
+  color:rgb(186, 31, 31);
+  background-color:#000000;
+  text-align: center;
+}
+
+footer .pag{
+  font-size: 18px;
+}
